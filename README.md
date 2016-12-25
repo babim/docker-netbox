@@ -14,6 +14,7 @@ To get NetBox up and running:
 ## Configuration
 
 You can configure the app at runtime using variables (see docker-compose.yml). Possible environment variables include:
+netbox use PostgreSQL (not support mysql)
 ```
     SUPERUSER_NAME
     SUPERUSER_EMAIL
